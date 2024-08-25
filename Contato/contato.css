@@ -1,0 +1,152 @@
+/*.css geral*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1c2833;
+    color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease;
+}
+
+header {
+    background: linear-gradient(135deg, #8e44ad, #2980b9);
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    background-color: #34495e;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f39c12
+    
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+    background-color: #2e4053;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    filter: drop-shadow(1px 1px 5px rgb(4, 4, 153))
+}
+
+.container h2 {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    color: #f39c12;
+}
+
+.container h32 {
+    font-size: 1.5em;
+    margin-bottom: 19px;
+    color: #00ccff;
+}
+
+.container p {
+    font-size: 1.3em;
+    line-height: 1.8;
+    color: #ecf0f1;
+}
+
+.container Email {
+    font-size: 1.em;
+    line-height: 1.8;
+    color: #ecf0f1;
+    filter: drop-shadow(1px 1px 9px blue)   
+}
+
+.container insta {
+    font-size: 1.em;
+    line-height: 1.8;
+    color: #ecf0f1;
+    filter: drop-shadow(1px 1px 9px rgb(143, 3, 199))   
+}
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+    background-color: #1c2833;
+    color: #bdc3c7;
+    margin-top: 40px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+footer p:hover {
+    color: #f39c12;
+}
+
+/*botao*/
+
+.btn {
+    background-color: #00aaff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0088cc;
+}
+
+.a1{
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/*esconder algo do site*/
+
+.esconder {
+    display: none;
+}
